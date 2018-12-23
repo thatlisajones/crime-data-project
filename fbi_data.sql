@@ -3,7 +3,7 @@ CREATE DATABASE fbi_data;
 USE fbi_data;
 
 CREATE TABLE crimes_by_state (
-id_year YEAR,
+id_year INT,
 state_id INT(4),
 state_abbr VARCHAR(4),
 state_name VARCHAR(25),
